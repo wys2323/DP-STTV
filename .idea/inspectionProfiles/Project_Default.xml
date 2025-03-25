@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E231" />
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="input" />
+          <option value="all" />
+          <option value="next" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.gene" />
+          <option value="apply.fitness_history" />
+          <option value="readShp.building" />
+          <option value="scipy.special.lambertw" />
+          <option value="str.__setitem__" />
+          <option value="object.__getitem__" />
+          <option value="pandas.core.generic.sem.str" />
+          <option value="object.labels_" />
+          <option value="list.T" />
+          <option value="list.append" />
+          <option value="list.__getitem__" />
+          <option value="int.append" />
+          <option value="int.__getitem__" />
+          <option value="prefixspan.PrefixSpan_frequent.PrefixSpan_frequent" />
+          <option value="str.split" />
+          <option value="str.__and__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
